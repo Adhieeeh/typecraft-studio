@@ -1,0 +1,151 @@
+:root {
+    --bg-main: #0f172a;
+    --bg-card: #1e293b;
+    --text-main: #f8fafc;
+    --accent: #06b6d4;
+    --border: #334155;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-main);
+    color: var(--text-main);
+    min-height: 100vh;
+}
+
+.app-header {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 30px 20px 10px 20px;
+    border-bottom: 1px solid var(--border);
+}
+
+.app-header h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 800;
+    color: var(--accent);
+}
+
+.app-header p {
+    margin: 5px 0 0 0;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.studio-container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.control-panel {
+    flex: 1;
+    min-width: 320px;
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+.control-panel h3 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: #cbd5e1;
+}
+
+.control-group {
+    margin-bottom: 20px;
+}
+
+.control-group label {
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #94a3b8;
+}
+
+.control-group select, 
+.control-group input[type="range"] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.control-group select {
+    padding: 10px;
+    background-color: var(--bg-main);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    color: var(--text-main);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.action-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--accent);
+    color: var(--bg-main);
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 10px;
+}
+
+.action-btn:hover {
+    background-color: #22d3ee;
+    transform: translateY(-2px);
+}
+
+
+.canvas-panel {
+    flex: 2;
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.canvas-header-row {
+    background-color: var(--bg-card);
+    padding: 12px 20px;
+    border-radius: 12px 12px 0 0;
+    border: 1px solid var(--border);
+    border-bottom: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #94a3b8;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.indicator-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #22c55e;
+    border-radius: 50%;
+}
+
+.preview-box {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px;
+    border-radius: 0 0 12px 12px;
+    border: 1px solid var(--border);
+    flex-grow: 1;
+    min-height: 250px;
+    transition: all 0.1s linear;
+}
