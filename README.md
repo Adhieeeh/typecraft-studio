@@ -1,5 +1,5 @@
 # TypeCraft — Interactive Typography Sandbox
-
+---------------------------------------------------
 TypeCraft which is an Interactive Typography Sandbox is a vanilla HTML, CSS, and JavaScript developer application that serves as a visual sandbox utility. It allows developers to test real-time Google Font pairings, inspect line-height layout flow dynamics, alter tracking properties, and export compiled production-ready CSS snippet code blocks instantly.
 
 ## TypeCraft Preview 
@@ -12,3 +12,4 @@ TypeCraft which is an Interactive Typography Sandbox is a vanilla HTML, CSS, and
 
 ##  Execution Instructions
     1. Open `index.html` straight into any standard browser or use a VS Code extension like Live Server.
+----------------------------------------------------------------------------
